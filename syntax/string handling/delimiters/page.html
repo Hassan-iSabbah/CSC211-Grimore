@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Delimiters</title>
+</head><body><span style="color: #cccccc"><span style="color: #4ec9b0"><span style="font-size: 14pt"><span style="font-family: Consolas"><span style="background-color: #1f1f1f">TEXT FILE DATA::::<br/>
+Gohan-21<br/>
+Goten-33<br/>
+Goku-27<br/>
+Itachi-16<br/>
+Naruto-13<br/>
+Kakashi-50<br/>
+END OF TEXT FILE DATA::::<br/>
+<br/>
+<br/>
+//while traversing through the text file:<br/>
+<br/>
+</span></span></span></span><span style="font-size: 14pt"><span style="font-family: Consolas"><span style="background-color: #1f1f1f"><span style="color: #4ec9b0">int</span>&nbsp;<span style="color: #9cdcfe">delimiter</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #9cdcfe">line</span>.<span style="color: #dcdcaa">indexOf</span>(<span style="color: #ce9178">"-"</span>); &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+<span style="color: #4ec9b0">String</span>&nbsp;<span style="color: #9cdcfe">name</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #9cdcfe">line</span>.<span style="color: #dcdcaa">substring</span>(<span style="color: #b5cea8">0</span>, <span style="color: #9cdcfe">delimiter</span>); &nbsp; &nbsp; &nbsp; &nbsp;<br/>
+<span style="color: #4ec9b0">int</span>&nbsp;<span style="color: #9cdcfe">age</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #4ec9b0">Integer</span>.<span style="color: #dcdcaa">parseInt</span>(<span style="color: #9cdcfe">line</span>.<span style="color: #dcdcaa">substring</span>(<span style="color: #9cdcfe">delimiter</span>&nbsp;<span style="color: #d4d4d4">+</span>&nbsp;<span style="color: #b5cea8">1</span>, <span style="color: #9cdcfe">line</span>.<br/>
+<br/>
+//Add to HashMap a.k.a. Dictionary<br/>
+</span></span></span></span><span style="color: #cccccc"><span style="font-size: 14pt"><span style="font-family: Consolas"><span style="background-color: #1f1f1f"><span style="color: #9cdcfe">friends_ages</span>.<span style="color: #dcdcaa">put</span>(<span style="color: #9cdcfe">name</span>, <span style="color: #9cdcfe">age</span>);</span></span></span></span>&nbsp; </body></html>

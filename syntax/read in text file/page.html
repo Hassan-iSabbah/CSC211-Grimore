@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Read in text file</title>
+</head><body><span style="color: #cccccc"><span style="font-size: 14pt"><span style="font-family: Consolas"><span style="background-color: #1f1f1f"><br/>
+&nbsp; <span style="color: #569cd6">public</span>&nbsp;<span style="color: #569cd6">static</span>&nbsp;<span style="color: #4ec9b0">void</span>&nbsp;<span style="color: #dcdcaa">read_in_file</span>(){ &nbsp; &nbsp;<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><span style="color: #c586c0">try</span>&nbsp;{ &nbsp; &nbsp; &nbsp;</li>
+<li style="list-style-type: none"><ul><li style="list-style-type: none"><span style="color: #4ec9b0">String</span>&nbsp;<span style="color: #9cdcfe">file_path</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #ce9178">"Phonebook.txt"</span>; &nbsp; &nbsp; &nbsp;</li>
+<li style="list-style-type: none"><span style="color: #4ec9b0">BufferedReader</span>&nbsp;<span style="color: #9cdcfe">bf</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #c586c0">new</span>&nbsp;<span style="color: #dcdcaa">BufferedReader</span>(<span style="color: #c586c0">new</span>&nbsp;<span style="color: #dcdcaa">FileReader</span>(<span style="color: #9cdcfe">file_path</span>));</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp; &nbsp; &nbsp; &#09; <span style="color: #4ec9b0">String</span>&nbsp;<span style="color: #9cdcfe">line</span>;<br/>
+&nbsp; &nbsp; &nbsp; <span style="color: #c586c0">while</span>&nbsp;((<span style="color: #9cdcfe">line</span>&nbsp;<span style="color: #d4d4d4">=</span>&nbsp;<span style="color: #9cdcfe">bf</span>.<span style="color: #dcdcaa">readLine</span>()) <span style="color: #d4d4d4">!=</span>&nbsp;<span style="color: #569cd6">null</span>){ &nbsp; &nbsp; &nbsp; &nbsp;<ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><ul><li style="list-style-type: none"><span style="color: #4ec9b0">System</span>.<span style="color: #9cdcfe">out</span>.<span style="color: #dcdcaa">println</span>(<span style="color: #9cdcfe">line</span>); &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </li>
+<li style="list-style-type: none"><span style="color: #6a9955">//String manipulation here</span></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+&nbsp; &nbsp; &nbsp; }<br/>
+</span></span></span></span><span style="color: #cccccc"><span style="font-size: 14pt"><span style="font-family: Consolas"><span style="background-color: #1f1f1f">&nbsp; &nbsp; } <span style="color: #c586c0">catch</span>&nbsp;(<span style="color: #4ec9b0">Exception</span>&nbsp;<span style="color: #9cdcfe">e</span>) { &nbsp; &nbsp;} &nbsp;} &nbsp;</span></span></span></span>&nbsp; </body></html>
