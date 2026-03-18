@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Sobaka.java</string>
+  <key>nodeid</key><string>42c0d75e-38d0-4545-9b3e-7f1d640c4f8b</string>
+  <key>modified_time</key><integer>1773875282</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>sobaka.java</string>
+  <key>content_type</key><string>application/octet-stream</string>
+  <key>created_time</key><integer>1773875282</integer>
+  <key>order</key><integer>3</integer>
+</dict>
+</node>

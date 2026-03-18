@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>title</key><string>Koshka.java</string>
+  <key>nodeid</key><string>75cf9641-669d-4d0c-9249-42dfab68da4b</string>
+  <key>modified_time</key><integer>1773875259</integer>
+  <key>version</key><integer>6</integer>
+  <key>payload_filename</key><string>koshka.java</string>
+  <key>content_type</key><string>application/octet-stream</string>
+  <key>created_time</key><integer>1773875259</integer>
+  <key>order</key><integer>1</integer>
+</dict>
+</node>
